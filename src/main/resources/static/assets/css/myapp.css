@@ -1,0 +1,20 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 90%;
+	height: auto;
+	position: relative;
+}
+/* 
+.dataTableImg {
+	height: 100px;
+	width: 100px;
+}
+
+ */

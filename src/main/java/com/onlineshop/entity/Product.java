@@ -25,6 +25,8 @@ import org.springframework.web.multipart.MultipartFile;
 @Table
 public class Product {
 
+	
+	//will not persist in the database
 	@Transient
 	private MultipartFile file;
 	

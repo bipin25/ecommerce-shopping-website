@@ -8,10 +8,10 @@
 <!-- Bootstrap core CSS -->
 <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Bootstrap Theme -->
+<!-- Bootstrap Theme(bootswatch.com) -->
 <!-- <link href="/assets/css/bootstrap-theme.css" rel="stylesheet"> -->
 
-<!-- Bootstrap datatables -->
+<!-- Bootstrap datatables (https://datatables.net/download/) -->
 <link href="/assets/css/dataTables.bootstrap.css" rel="stylesheet">
 
 <!-- FontawesomeLibary -->
@@ -44,9 +44,12 @@ font-awesome.min.css">
 	<!-- Bootstrap core JavaScript -->
 	<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	
-	<!-- Datatabel plugin -->
+	<!-- Datatabel plugin (https://datatables.net/download/)-->
 	<script src="/assets/js/jquery.dataTables.js"></script>
 	<script src="/assets/js/dataTables.bootstrap4.js"></script>
+	
+	<!-- Jquery Validator https://jqueryvalidation.org/ -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script> -->
 	
 	<!-- custom js -->
 	<script src="/assets/js/myapp.js"></script>

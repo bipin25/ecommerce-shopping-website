@@ -2,10 +2,10 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-lg-3">
+		<div class="col-lg-3 col-xs-12">
 			<%@ include file="./shared/sidebar.jsp"%>
 		</div>
-		<div class="col-lg-9">
+		<div class="col-lg-9 col-xs-12">
 			<nav>
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="/home">Home</a></li>
@@ -31,7 +31,7 @@
 							<td><img alt="#" src="/assets/images/${product.code}.jpg"
 								style="width: 80px; height: 80px" /></td>
 							<td>${product.name}</td>
-							<td>${product.unitPrice}</td>
+							<td>${product.brand}</td>
 
 							<c:choose>
 								<c:when test="${product.quantity<1}">

@@ -27,6 +27,16 @@ public class HomeController {
 		mv.setViewName("home");
 		return mv;
 	}
+
+	@RequestMapping(value= {"/issue1"})
+	public ModelAndView index1() {
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("categoryList", categoryService.getAllCategory());
+		//mv.addObje.ct("productList", productService.listActiveProduct());
+		mv.setViewName("home");
+		return mv;
+	}
+
 	@RequestMapping(value= "/productlist")
 	public ModelAndView productlist() {
 		ModelAndView mv = new ModelAndView();
